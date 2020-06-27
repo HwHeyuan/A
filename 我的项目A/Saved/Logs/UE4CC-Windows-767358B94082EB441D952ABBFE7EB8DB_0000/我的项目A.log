@@ -1,0 +1,504 @@
+﻿Log file open, 06/28/20 00:48:42
+LogInit:Display: Running engine for game: 我的项目A
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1946830294) SRandInit(1946830294).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.087755
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: D:/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.06.27-16.48.43:334][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.27-16.48.43:334][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.06.27-16.48.43:338][  0]LogInit: Computer: 93SSLYG2D88AY5F
+[2020.06.27-16.48.43:338][  0]LogInit: User: Administrator
+[2020.06.27-16.48.43:338][  0]LogInit: CPU Page size=65536, Cores=6
+[2020.06.27-16.48.43:338][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.06.27-16.48.43:339][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2020.06.27-16.48.43:339][  0]LogMemory: Platform Memory Stats for Windows
+[2020.06.27-16.48.43:339][  0]LogMemory: Process Physical Memory: 265.33 MB used, 265.33 MB peak
+[2020.06.27-16.48.43:339][  0]LogMemory: Process Virtual Memory: 268.79 MB used, 268.79 MB peak
+[2020.06.27-16.48.43:339][  0]LogMemory: Physical Memory: 5990.06 MB used,  10354.36 MB free, 16344.41 MB total
+[2020.06.27-16.48.43:339][  0]LogMemory: Virtual Memory: 4771.86 MB used,  10354.36 MB free, 134217728.00 MB total
+[2020.06.27-16.48.43:424][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (D:/UE_4.15/Engine/Content/Localization/EditorTutorials/zh-CN/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (用于引用此节点中的资源的累积时间)
+Localization Resource: (D:/UE_4.15/Engine/Content/Localization/Engine/zh-CN/Engine.locres) Source String Hash: (502993589) Localized String: (引用该节点中资源所用的累计时间)
+[2020.06.27-16.48.43:424][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (D:/UE_4.15/Engine/Content/Localization/EditorTutorials/zh-CN/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (若为真，在状态中寻找最高权重动画的“相关动画”节点将忽视 此节点)
+Localization Resource: (D:/UE_4.15/Engine/Content/Localization/Engine/zh-CN/Engine.locres) Source String Hash: (319969718) Localized String: (如果为真，那么将会忽略查找最高权重动画的"相关动画"节点。
+这个节点)
+[2020.06.27-16.48.43:424][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (D:/UE_4.15/Engine/Content/Localization/EditorTutorials/zh-CN/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (此节点最后交会的混合权重)
+Localization Resource: (D:/UE_4.15/Engine/Content/Localization/Engine/zh-CN/Engine.locres) Source String Hash: (-1232800293) Localized String: (该节点上一次遇到的混合权重)
+[2020.06.27-16.48.43:637][  0]LogD3D11RHI: D3D11 adapters:
+[2020.06.27-16.48.43:702][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080' (Feature Level 11_0)
+[2020.06.27-16.48.43:702][  0]LogD3D11RHI:       8010/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.06.27-16.48.43:704][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.06.27-16.48.43:704][  0]LogD3D11RHI:       0/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.06.27-16.48.43:704][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.06.27-16.48.43:708][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.06.27-16.48.43:708][  0]LogD3D11RHI:     GPU DeviceId: 0x1e87 (for the marketing name, search the web for "GPU Device Id")
+[2020.06.27-16.48.43:708][  0]LogWindows: EnumDisplayDevices:
+[2020.06.27-16.48.43:708][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080' (P:1 D:1)
+[2020.06.27-16.48.43:709][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2020.06.27-16.48.43:709][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2020.06.27-16.48.43:709][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2020.06.27-16.48.43:709][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.06.27-16.48.43:709][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080
+[2020.06.27-16.48.43:709][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.06.27-16.48.43:709][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.06.27-16.48.43:709][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2020.06.27-16.48.43:746][  0]LogD3D11RHI: Async texture creation enabled
+[2020.06.27-16.48.43:764][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.06.27-16.48.43:765][  0]LogShaderCompilers: Guid format shader working directory is 25 characters bigger than the processId version (../../../../UE4Project/我的项目A/Intermediate/Shaders/WorkingDirectory/10204/).
+[2020.06.27-16.48.43:765][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Administrator/AppData/Local/Temp/UnrealShaderWorkingDir/F88B32D34D62EEAB229AC8AC58AA0E26/'.
+[2020.06.27-16.48.43:765][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2020.06.27-16.48.44:491][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2020.06.27-16.48.44:521][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2020.06.27-16.48.44:551][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2020.06.27-16.48.44:581][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2020.06.27-16.48.44:611][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2020.06.27-16.48.44:639][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2020.06.27-16.48.44:669][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.06.27-16.48.44:699][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2020.06.27-16.48.44:722][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2020.06.27-16.48.44:751][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2020.06.27-16.48.44:780][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2020.06.27-16.48.44:809][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2020.06.27-16.48.44:838][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2020.06.27-16.48.44:868][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2020.06.27-16.48.44:897][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2020.06.27-16.48.44:960][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2020.06.27-16.48.44:960][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.06.27-16.48.44:978][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2020.06.27-16.48.45:039][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2020.06.27-16.48.45:058][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2020.06.27-16.48.45:088][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2020.06.27-16.48.45:117][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.06.27-16.48.45:147][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2020.06.27-16.48.45:178][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2020.06.27-16.48.45:178][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2020.06.27-16.48.45:382][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2020.06.27-16.48.45:413][  0]LogDerivedDataCache: Loaded boot cache 0.03s 50MB C:/Users/Administrator/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2020.06.27-16.48.45:413][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Administrator/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2020.06.27-16.48.45:413][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../UE4Project/我的项目A/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.06.27-16.48.45:413][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.06.27-16.48.45:413][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../UE4Project/我的项目A/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.27-16.48.45:413][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.06.27-16.48.45:425][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.06.27-16.48.45:437][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Administrator/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.06.27-16.48.45:443][  0]LogSlate: Using Freetype 2.6.0
+[2020.06.27-16.48.45:444][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.06.27-16.48.45:444][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.06.27-16.48.45:638][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.27-16.48.45:639][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2020.06.27-16.48.45:758][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.06.27-16.48.45:779][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.06.27-16.48.45:802][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.06.27-16.48.45:802][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2020.06.27-16.48.45:802][  0]LogMeshUtilities: No automatic mesh merging module available
+[2020.06.27-16.48.46:120][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: 我的项目a, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 640449760
+[2020.06.27-16.48.46:154][  0]LogAssetRegistry: FAssetRegistry took 0.0216 seconds to start up
+[2020.06.27-16.48.46:189][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 4 prioritized culture(s) in 0.025694 seconds
+[2020.06.27-16.48.46:193][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2020.06.27-16.48.46:193][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2020.06.27-16.48.46:193][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.06.27-16.48.46:221][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.06.27-16.48.47:107][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.06.27-16.48.47:131][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.06.27-16.48.47:385][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2020.06.27-16.48.47:579][  0]SourceControl: 信息 源码控制已禁用
+[2020.06.27-16.48.47:621][  0]SourceControl: 信息 源码控制已禁用
+[2020.06.27-16.48.47:644][  0]SourceControl: 信息 源码控制已禁用
+[2020.06.27-16.48.47:665][  0]SourceControl: 信息 源码控制已禁用
+[2020.06.27-16.48.48:267][  0]LogEngine: Initializing Engine...
+[2020.06.27-16.48.48:268][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.27-16.48.48:341][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.06.27-16.48.48:341][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.06.27-16.48.48:398][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.06.27-16.48.48:417][  0]LogInit: XAudio2 using '扬声器 (3- S21)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.06.27-16.48.48:438][  0]LogInit: FAudioDevice initialized.
+[2020.06.27-16.48.48:456][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Administrator/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2020.06.27-16.48.48:461][  0]LogInit: Texture streaming: Enabled
+[2020.06.27-16.48.48:505][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.06.27-16.48.48:549][  0]LogInit: Transaction tracking system initialized
+[2020.06.27-16.48.48:713][  0]BlueprintLog: New page: 编辑器加载
+[2020.06.27-16.48.49:126][  0]LocalizationService: 信息 本地化服务已被禁用
+[2020.06.27-16.48.49:450][  0]LogConsoleResponse:Display: 
+[2020.06.27-16.48.49:527][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.06.27-16.48.49:527][  0]LogCook:Display: Mobile HDR setting 1
+[2020.06.27-16.48.50:004][  0]LogFileCache: Scanning file cache for directory 'D:/UE4Project/我的项目A/Content/' took 0.01s
+[2020.06.27-16.48.50:004][  0]SourceControl: 信息 源码控制已禁用
+[2020.06.27-16.48.50:004][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.27-16.48.50:004][  0]LightingResults: New page: 光照构建
+[2020.06.27-16.48.50:023][  0]MapCheck: New page: 地图检测
+[2020.06.27-16.48.50:023][  0]LightingResults: New page: 光照构建
+[2020.06.27-16.48.50:152][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2020.06.27-16.48.50:163][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.06.27-16.48.50:166][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.27-16.48.50:168][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.27-16.48.50:189][  0]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时20.818毫秒完成。
+[2020.06.27-16.48.50:189][  0]LogFileHelpers: Loading map 'Template_Default' took 0.185
+[2020.06.27-16.48.50:326][  0]LogCollectionManager: Loaded 0 collections in 0.000521 seconds
+[2020.06.27-16.48.50:382][  0]LogFileCache: Scanning file cache for directory 'D:/UE4Project/我的项目A/Saved/Collections/' took 0.01s
+[2020.06.27-16.48.50:382][  0]LogFileCache: Scanning file cache for directory 'D:/UE4Project/我的项目A/Content/Developers/Administrator/Collections/' took 0.01s
+[2020.06.27-16.48.50:382][  0]LogFileCache: Scanning file cache for directory 'D:/UE4Project/我的项目A/Content/Collections/' took 0.01s
+[2020.06.27-16.48.50:382][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.06.27-16.48.50:388][  0]LogContentBrowser: Native class hierarchy populated in 0.0060 seconds. Added 2245 classes and 453 folders.
+[2020.06.27-16.48.50:418][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.06.27-16.48.50:442][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.06.27-16.48.50:463][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2020.06.27-16.48.50:489][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2020.06.27-16.48.50:496][  0]LogUObjectGlobals:Warning: 寻找对象'Class 无.'失败
+[2020.06.27-16.48.50:539][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2020.06.27-16.48.50:540][  0]LogLoad: (Engine Initialization) Total time: 8.43 seconds
+[2020.06.27-16.48.50:540][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.05 seconds
+[2020.06.27-16.48.50:540][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2020.06.27-16.48.50:550][  0]LogOcInput: OculusInput pre-init called
+[2020.06.27-16.48.50:564][  0]LogAssetRegistry: Asset discovery search completed in 4.4316 seconds
+[2020.06.27-16.48.50:564][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2020.06.27-16.48.50:564][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000013 seconds (updated 0 objects)
+[2020.06.27-16.48.50:568][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.06.27-16.48.50:574][  0]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.06.27-16.48.50:575][  0]LogSlate: Took 0.001196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.06.27-16.48.50:577][  0]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.06.27-16.48.50:581][  0]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.06.27-16.48.50:664][  0]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.06.27-16.48.50:701][  0]LogRenderer: Reallocating scene render targets to support 1204x544 NumSamples 1 (Frame:2).
+[2020.06.27-16.48.51:558][ 85]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.06.27-16.49.01:471][248]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.06.27-16.49.01:522][248]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.06.27-16.49.01:608][248]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.27-16.49.01:832][248]LogClass:Warning: Enum '/Game/AdvancedMagicFX12/DemoRoomData/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2020.06.27-16.49.01:881][248]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 112 classes and 0 folders.
+[2020.06.27-16.49.02:114][248]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	ShuangdaoAnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.ShuangdaoAnimBlueprint_C_0
+	Function /Game/TwinbladesAnimsetBase/RootMotion/ShuangdaoAnimBlueprint.ShuangdaoAnimBlueprint_C:ExecuteUbergraph_ShuangdaoAnimBlueprint:01F4
+[2020.06.27-16.49.02:114][248]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ShuangdaoAnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.ShuangdaoAnimBlueprint_C_0
+	Function /Game/TwinbladesAnimsetBase/RootMotion/ShuangdaoAnimBlueprint.ShuangdaoAnimBlueprint_C:ExecuteUbergraph_ShuangdaoAnimBlueprint:0222
+[2020.06.27-16.49.02:114][248]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	ShuangdaoAnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.ShuangdaoAnimBlueprint_C_0
+	Function /Game/TwinbladesAnimsetBase/RootMotion/ShuangdaoAnimBlueprint.ShuangdaoAnimBlueprint_C:ExecuteUbergraph_ShuangdaoAnimBlueprint:0285
+[2020.06.27-16.49.02:126][248]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.27-16.49.02:149][248]LogSlate: Took 0.000465 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.06.27-16.49.02:201][248]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	ShuangdaoAnimBlueprint_C /Engine/Transient.World_5:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ShuangdaoAnimBlueprint_C_1
+	Function /Game/TwinbladesAnimsetBase/RootMotion/ShuangdaoAnimBlueprint.ShuangdaoAnimBlueprint_C:ExecuteUbergraph_ShuangdaoAnimBlueprint:01F4
+[2020.06.27-16.49.02:201][248]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ShuangdaoAnimBlueprint_C /Engine/Transient.World_5:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ShuangdaoAnimBlueprint_C_1
+	Function /Game/TwinbladesAnimsetBase/RootMotion/ShuangdaoAnimBlueprint.ShuangdaoAnimBlueprint_C:ExecuteUbergraph_ShuangdaoAnimBlueprint:0222
+[2020.06.27-16.49.02:201][248]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	ShuangdaoAnimBlueprint_C /Engine/Transient.World_5:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ShuangdaoAnimBlueprint_C_1
+	Function /Game/TwinbladesAnimsetBase/RootMotion/ShuangdaoAnimBlueprint.ShuangdaoAnimBlueprint_C:ExecuteUbergraph_ShuangdaoAnimBlueprint:0285
+[2020.06.27-16.49.02:205][248]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	ShuangdaoAnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.ShuangdaoAnimBlueprint_C_0
+	Function /Game/TwinbladesAnimsetBase/RootMotion/ShuangdaoAnimBlueprint.ShuangdaoAnimBlueprint_C:ExecuteUbergraph_ShuangdaoAnimBlueprint:01F4
+[2020.06.27-16.49.02:205][248]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ShuangdaoAnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.ShuangdaoAnimBlueprint_C_0
+	Function /Game/TwinbladesAnimsetBase/RootMotion/ShuangdaoAnimBlueprint.ShuangdaoAnimBlueprint_C:ExecuteUbergraph_ShuangdaoAnimBlueprint:0222
+[2020.06.27-16.49.02:205][248]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	ShuangdaoAnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.ShuangdaoAnimBlueprint_C_0
+	Function /Game/TwinbladesAnimsetBase/RootMotion/ShuangdaoAnimBlueprint.ShuangdaoAnimBlueprint_C:ExecuteUbergraph_ShuangdaoAnimBlueprint:0285
+[2020.06.27-16.49.02:210][248]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.06.27-16.49.02:352][249]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	ShuangdaoAnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.ShuangdaoAnimBlueprint_C_0
+	Function /Game/TwinbladesAnimsetBase/RootMotion/ShuangdaoAnimBlueprint.ShuangdaoAnimBlueprint_C:ExecuteUbergraph_ShuangdaoAnimBlueprint:01F4
+[2020.06.27-16.49.02:352][249]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ShuangdaoAnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.ShuangdaoAnimBlueprint_C_0
+	Function /Game/TwinbladesAnimsetBase/RootMotion/ShuangdaoAnimBlueprint.ShuangdaoAnimBlueprint_C:ExecuteUbergraph_ShuangdaoAnimBlueprint:0222
+[2020.06.27-16.49.02:352][249]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	ShuangdaoAnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.ShuangdaoAnimBlueprint_C_0
+	Function /Game/TwinbladesAnimsetBase/RootMotion/ShuangdaoAnimBlueprint.ShuangdaoAnimBlueprint_C:ExecuteUbergraph_ShuangdaoAnimBlueprint:0285
+[2020.06.27-16.49.02:358][249]LogSlate: Took 0.000361 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.06.27-16.49.02:378][250]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	ShuangdaoAnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.ShuangdaoAnimBlueprint_C_0
+	Function /Game/TwinbladesAnimsetBase/RootMotion/ShuangdaoAnimBlueprint.ShuangdaoAnimBlueprint_C:ExecuteUbergraph_ShuangdaoAnimBlueprint:01F4
+[2020.06.27-16.49.02:378][250]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ShuangdaoAnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.ShuangdaoAnimBlueprint_C_0
+	Function /Game/TwinbladesAnimsetBase/RootMotion/ShuangdaoAnimBlueprint.ShuangdaoAnimBlueprint_C:ExecuteUbergraph_ShuangdaoAnimBlueprint:0222
+[2020.06.27-16.49.02:378][250]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	ShuangdaoAnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.ShuangdaoAnimBlueprint_C_0
+	Function /Game/TwinbladesAnimsetBase/RootMotion/ShuangdaoAnimBlueprint.ShuangdaoAnimBlueprint_C:ExecuteUbergraph_ShuangdaoAnimBlueprint:0285
+[2020.06.27-16.49.02:387][251]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	ShuangdaoAnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.ShuangdaoAnimBlueprint_C_0
+	Function /Game/TwinbladesAnimsetBase/RootMotion/ShuangdaoAnimBlueprint.ShuangdaoAnimBlueprint_C:ExecuteUbergraph_ShuangdaoAnimBlueprint:01F4
+[2020.06.27-16.49.02:387][251]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ShuangdaoAnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.ShuangdaoAnimBlueprint_C_0
+	Function /Game/TwinbladesAnimsetBase/RootMotion/ShuangdaoAnimBlueprint.ShuangdaoAnimBlueprint_C:ExecuteUbergraph_ShuangdaoAnimBlueprint:0222
+[2020.06.27-16.49.02:387][251]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	ShuangdaoAnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.ShuangdaoAnimBlueprint_C_0
+	Function /Game/TwinbladesAnimsetBase/RootMotion/ShuangdaoAnimBlueprint.ShuangdaoAnimBlueprint_C:ExecuteUbergraph_ShuangdaoAnimBlueprint:0285
+[2020.06.27-16.49.02:395][252]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	ShuangdaoAnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.ShuangdaoAnimBlueprint_C_0
+	Function /Game/TwinbladesAnimsetBase/RootMotion/ShuangdaoAnimBlueprint.ShuangdaoAnimBlueprint_C:ExecuteUbergraph_ShuangdaoAnimBlueprint:01F4
+[2020.06.27-16.49.02:395][252]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ShuangdaoAnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.ShuangdaoAnimBlueprint_C_0
+	Function /Game/TwinbladesAnimsetBase/RootMotion/ShuangdaoAnimBlueprint.ShuangdaoAnimBlueprint_C:ExecuteUbergraph_ShuangdaoAnimBlueprint:0222
+[2020.06.27-16.49.18:834][881]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.06.27-16.49.20:724][102]Cmd: MAP LOAD FILE="../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.27-16.49.20:724][102]LightingResults: New page: 光照构建
+[2020.06.27-16.49.20:725][102]LoadErrors: New page: 正在加载地图： ThirdPersonExampleMap.umap
+[2020.06.27-16.49.20:725][102]MapCheck: New page: 地图检测
+[2020.06.27-16.49.20:725][102]LightingResults: New page: 光照构建
+[2020.06.27-16.49.20:739][102]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.27-16.49.20:755][102]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.27-16.49.20:784][102]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时29.298毫秒完成。
+[2020.06.27-16.49.20:784][102]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.062
+[2020.06.27-16.50.49:364][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2020.06.27-16.50.49:413][559]LogSavePackage: Save=46.22ms
+[2020.06.27-16.50.49:413][559]LogSavePackage: Moving '../../../../UE4Project/我的项目A/Saved/ThirdPersonCharacterD95C94AD4A615014BD6C57BB10544C7F.tmp' to '../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.06.27-16.50.49:415][559]LogSavePackage:Display: Finished SavePackage ../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2020.06.27-16.50.50:065][637]BlueprintLog: New page: 编译ThirdPersonCharacter
+[2020.06.27-16.50.50:106][637]LogBlueprint:Error: [Compiler ShuangdaoAnimBlueprint] 错误 无法找到名称为"ResetCombo"的函数于'ThirdPersonCharacter_C'内。
+请确保已经为 Reset Combo 编译了'ThirdPersonCharacter_C'
+[2020.06.27-16.50.50:106][637]LogBlueprint:Error: [Compiler ShuangdaoAnimBlueprint] 错误 无法找到名称为"ComboAttackSave"的函数于'ThirdPersonCharacter_C'内。
+请确保已经为 Combo Attack Save 编译了'ThirdPersonCharacter_C'
+[2020.06.27-16.50.50:109][637]LogBlueprint:Error: [Compiler ShuangdaoAnimBlueprint] 错误 无法找到名称为"ResetCombo"的函数于'ThirdPersonCharacter_C'内。
+请确保已经为 Reset Combo 编译了'ThirdPersonCharacter_C'
+[2020.06.27-16.50.50:109][637]LogBlueprint:Error: [Compiler ShuangdaoAnimBlueprint] 错误 无法找到名称为"ComboAttackSave"的函数于'ThirdPersonCharacter_C'内。
+请确保已经为 Combo Attack Save 编译了'ThirdPersonCharacter_C'
+[2020.06.27-16.51.59:388][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2020.06.27-16.51.59:436][723]LogSavePackage: Save=45.49ms
+[2020.06.27-16.51.59:436][723]LogSavePackage: Moving '../../../../UE4Project/我的项目A/Saved/ThirdPersonCharacter1EE9C4C3426968E428C86DAA48724F75.tmp' to '../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.06.27-16.51.59:437][723]LogSavePackage:Display: Finished SavePackage ../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2020.06.27-16.51.59:585][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2020.06.27-16.51.59:628][739]LogSavePackage: Save=39.85ms
+[2020.06.27-16.51.59:628][739]LogSavePackage: Moving '../../../../UE4Project/我的项目A/Saved/ThirdPersonCharacterFAA9A4114005A7574EFA22AF101E2497.tmp' to '../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.06.27-16.51.59:628][739]LogSavePackage:Display: Finished SavePackage ../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2020.06.27-16.51.59:748][752]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2020.06.27-16.51.59:790][752]LogSavePackage: Save=39.80ms
+[2020.06.27-16.51.59:790][752]LogSavePackage: Moving '../../../../UE4Project/我的项目A/Saved/ThirdPersonCharacter84CA87A74BC70B4E1F286F93F990A3DE.tmp' to '../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.06.27-16.51.59:791][752]LogSavePackage:Display: Finished SavePackage ../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2020.06.27-16.52.05:135][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2020.06.27-16.52.05:177][392]LogSavePackage: Save=39.93ms
+[2020.06.27-16.52.05:177][392]LogSavePackage: Moving '../../../../UE4Project/我的项目A/Saved/ThirdPersonCharacterC2DBA7B54C365387B41C67B81BBFCCCA.tmp' to '../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.06.27-16.52.05:178][392]LogSavePackage:Display: Finished SavePackage ../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2020.06.27-16.52.05:341][410]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2020.06.27-16.52.05:383][410]LogSavePackage: Save=39.69ms
+[2020.06.27-16.52.05:383][410]LogSavePackage: Moving '../../../../UE4Project/我的项目A/Saved/ThirdPersonCharacter93FC82304CB4A579C34C7CA95E3F214F.tmp' to '../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.06.27-16.52.05:383][410]LogSavePackage:Display: Finished SavePackage ../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2020.06.27-16.52.05:511][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2020.06.27-16.52.05:553][424]LogSavePackage: Save=40.00ms
+[2020.06.27-16.52.05:553][424]LogSavePackage: Moving '../../../../UE4Project/我的项目A/Saved/ThirdPersonCharacter56CED0504F7EDEA32E7A7A8AF90EDF0D.tmp' to '../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.06.27-16.52.05:554][424]LogSavePackage:Display: Finished SavePackage ../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2020.06.27-16.52.42:762][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2020.06.27-16.52.42:813][819]LogSavePackage: Save=48.45ms
+[2020.06.27-16.52.42:813][819]LogSavePackage: Moving '../../../../UE4Project/我的项目A/Saved/ThirdPersonCharacter580CF4E24C0CD026BA87C8B22BB39741.tmp' to '../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.06.27-16.52.42:814][819]LogSavePackage:Display: Finished SavePackage ../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2020.06.27-16.52.42:934][832]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2020.06.27-16.52.42:977][832]LogSavePackage: Save=40.85ms
+[2020.06.27-16.52.42:977][832]LogSavePackage: Moving '../../../../UE4Project/我的项目A/Saved/ThirdPersonCharacter71B1AAA14950B68BDFFA82BDCEF3E808.tmp' to '../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.06.27-16.52.42:978][832]LogSavePackage:Display: Finished SavePackage ../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2020.06.27-16.52.43:116][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2020.06.27-16.52.43:159][847]LogSavePackage: Save=40.20ms
+[2020.06.27-16.52.43:159][847]LogSavePackage: Moving '../../../../UE4Project/我的项目A/Saved/ThirdPersonCharacter4D565B3B4E19AA946BA3E78C74CD76CF.tmp' to '../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.06.27-16.52.43:159][847]LogSavePackage:Display: Finished SavePackage ../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2020.06.27-16.52.43:299][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2020.06.27-16.52.43:341][862]LogSavePackage: Save=39.89ms
+[2020.06.27-16.52.43:341][862]LogSavePackage: Moving '../../../../UE4Project/我的项目A/Saved/ThirdPersonCharacter3550D2AF4BFFC2E1BA861DB5E35D3BF9.tmp' to '../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.06.27-16.52.43:342][862]LogSavePackage:Display: Finished SavePackage ../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2020.06.27-16.53.00:556][886]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2020.06.27-16.53.00:557][886]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (微软拼音).
+[2020.06.27-16.53.28:990][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2020.06.27-16.53.29:039][223]LogSavePackage: Save=46.41ms
+[2020.06.27-16.53.29:039][223]LogSavePackage: Moving '../../../../UE4Project/我的项目A/Saved/ThirdPersonCharacter88F2B3A745E6A695FB35E7BC20EAD072.tmp' to '../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.06.27-16.53.29:041][223]LogSavePackage:Display: Finished SavePackage ../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2020.06.27-16.53.29:171][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2020.06.27-16.53.29:215][237]LogSavePackage: Save=40.99ms
+[2020.06.27-16.53.29:215][237]LogSavePackage: Moving '../../../../UE4Project/我的项目A/Saved/ThirdPersonCharacter001861C14DE44EC7F2D84DB48FEEC02C.tmp' to '../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.06.27-16.53.29:216][237]LogSavePackage:Display: Finished SavePackage ../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2020.06.27-16.53.35:455][971]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2020.06.27-16.53.35:455][971]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2020.06.27-16.53.37:745][239]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2020.06.27-16.53.37:745][239]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (微软拼音).
+[2020.06.27-16.53.45:304][102]LogEditorTransaction: Undo 移动节点
+[2020.06.27-16.53.45:327][102]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.27-16.54.03:341][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2020.06.27-16.54.03:389][221]LogSavePackage: Save=46.06ms
+[2020.06.27-16.54.03:389][221]LogSavePackage: Moving '../../../../UE4Project/我的项目A/Saved/ThirdPersonCharacter03886F4045750E9C377B3888446D799A.tmp' to '../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.06.27-16.54.03:390][221]LogSavePackage:Display: Finished SavePackage ../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2020.06.27-16.54.03:530][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2020.06.27-16.54.03:573][236]LogSavePackage: Save=40.51ms
+[2020.06.27-16.54.03:573][236]LogSavePackage: Moving '../../../../UE4Project/我的项目A/Saved/ThirdPersonCharacterF57219264ECBDFB0A39DF2AEEDF24CD0.tmp' to '../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.06.27-16.54.03:574][236]LogSavePackage:Display: Finished SavePackage ../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2020.06.27-16.54.03:695][248]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2020.06.27-16.54.03:737][248]LogSavePackage: Save=41.09ms
+[2020.06.27-16.54.03:737][248]LogSavePackage: Moving '../../../../UE4Project/我的项目A/Saved/ThirdPersonCharacter2263300F4E59D5458F085FB382CC1F2B.tmp' to '../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.06.27-16.54.03:738][248]LogSavePackage:Display: Finished SavePackage ../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2020.06.27-16.54.13:221][365]LogEditorTransaction: Undo 添加输入参数
+[2020.06.27-16.54.13:256][365]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.27-16.54.14:229][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2020.06.27-16.54.14:278][464]LogSavePackage: Save=46.50ms
+[2020.06.27-16.54.14:278][464]LogSavePackage: Moving '../../../../UE4Project/我的项目A/Saved/ThirdPersonCharacter554E88D844681CCBF6C232A1747A2131.tmp' to '../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.06.27-16.54.14:279][464]LogSavePackage:Display: Finished SavePackage ../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2020.06.27-16.54.14:412][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2020.06.27-16.54.14:456][477]LogSavePackage: Save=41.42ms
+[2020.06.27-16.54.14:456][477]LogSavePackage: Moving '../../../../UE4Project/我的项目A/Saved/ThirdPersonCharacterC00A2AA647AB761833F332A31D506528.tmp' to '../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.06.27-16.54.14:457][477]LogSavePackage:Display: Finished SavePackage ../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2020.06.27-16.54.14:577][490]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2020.06.27-16.54.14:620][490]LogSavePackage: Save=41.30ms
+[2020.06.27-16.54.14:620][490]LogSavePackage: Moving '../../../../UE4Project/我的项目A/Saved/ThirdPersonCharacter71942D8B4592870A0253CB9502679D47.tmp' to '../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.06.27-16.54.14:621][490]LogSavePackage:Display: Finished SavePackage ../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2020.06.27-16.54.14:758][505]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2020.06.27-16.54.14:801][505]LogSavePackage: Save=41.33ms
+[2020.06.27-16.54.14:801][505]LogSavePackage: Moving '../../../../UE4Project/我的项目A/Saved/ThirdPersonCharacter86C71C4E4962395A4A2D959DE470F615.tmp' to '../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.06.27-16.54.14:802][505]LogSavePackage:Display: Finished SavePackage ../../../../UE4Project/我的项目A/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2020.06.27-16.54.15:337][569]BlueprintLog: New page: 编译ThirdPersonCharacter
+[2020.06.27-16.54.15:687][569]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	ShuangdaoAnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.ShuangdaoAnimBlueprint_C_6
+	Function /Game/TwinbladesAnimsetBase/RootMotion/ShuangdaoAnimBlueprint.ShuangdaoAnimBlueprint_C:ExecuteUbergraph_ShuangdaoAnimBlueprint:01F4
+[2020.06.27-16.54.15:687][569]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ShuangdaoAnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.ShuangdaoAnimBlueprint_C_6
+	Function /Game/TwinbladesAnimsetBase/RootMotion/ShuangdaoAnimBlueprint.ShuangdaoAnimBlueprint_C:ExecuteUbergraph_ShuangdaoAnimBlueprint:0222
+[2020.06.27-16.54.15:687][569]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	ShuangdaoAnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.ShuangdaoAnimBlueprint_C_6
+	Function /Game/TwinbladesAnimsetBase/RootMotion/ShuangdaoAnimBlueprint.ShuangdaoAnimBlueprint_C:ExecuteUbergraph_ShuangdaoAnimBlueprint:0285
+[2020.06.27-16.54.15:688][569]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	ShuangdaoAnimBlueprint_C /Engine/Transient.World_5:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ShuangdaoAnimBlueprint_C_7
+	Function /Game/TwinbladesAnimsetBase/RootMotion/ShuangdaoAnimBlueprint.ShuangdaoAnimBlueprint_C:ExecuteUbergraph_ShuangdaoAnimBlueprint:01F4
+[2020.06.27-16.54.15:688][569]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ShuangdaoAnimBlueprint_C /Engine/Transient.World_5:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ShuangdaoAnimBlueprint_C_7
+	Function /Game/TwinbladesAnimsetBase/RootMotion/ShuangdaoAnimBlueprint.ShuangdaoAnimBlueprint_C:ExecuteUbergraph_ShuangdaoAnimBlueprint:0222
+[2020.06.27-16.54.15:688][569]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	ShuangdaoAnimBlueprint_C /Engine/Transient.World_5:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ShuangdaoAnimBlueprint_C_7
+	Function /Game/TwinbladesAnimsetBase/RootMotion/ShuangdaoAnimBlueprint.ShuangdaoAnimBlueprint_C:ExecuteUbergraph_ShuangdaoAnimBlueprint:0285
+[2020.06.27-16.54.15:744][569]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	ShuangdaoAnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.ShuangdaoAnimBlueprint_C_6
+	Function /Game/TwinbladesAnimsetBase/RootMotion/ShuangdaoAnimBlueprint.ShuangdaoAnimBlueprint_C:ExecuteUbergraph_ShuangdaoAnimBlueprint:01F4
+[2020.06.27-16.54.15:744][569]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ShuangdaoAnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.ShuangdaoAnimBlueprint_C_6
+	Function /Game/TwinbladesAnimsetBase/RootMotion/ShuangdaoAnimBlueprint.ShuangdaoAnimBlueprint_C:ExecuteUbergraph_ShuangdaoAnimBlueprint:0222
+[2020.06.27-16.54.15:745][569]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	ShuangdaoAnimBlueprint_C /Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.ShuangdaoAnimBlueprint_C_6
+	Function /Game/TwinbladesAnimsetBase/RootMotion/ShuangdaoAnimBlueprint.ShuangdaoAnimBlueprint_C:ExecuteUbergraph_ShuangdaoAnimBlueprint:0285
+[2020.06.27-16.54.15:836][569]LogSavePackage: Save=28.25ms
+[2020.06.27-16.54.15:836][569]LogSavePackage: Moving '../../../../UE4Project/我的项目A/Saved/ShuangdaoAnimBlueprint8F5E50C94D6399E0CD945D9B540610F1.tmp' to '../../../../UE4Project/我的项目A/Content/TwinbladesAnimsetBase/RootMotion/ShuangdaoAnimBlueprint.uasset'
+[2020.06.27-16.54.15:837][569]LogSavePackage:Display: Finished SavePackage ../../../../UE4Project/我的项目A/Content/TwinbladesAnimsetBase/RootMotion/ShuangdaoAnimBlueprint.uasset
+[2020.06.27-16.54.16:206][593]LogUObjectBase:Warning: Object is not registered
+[2020.06.27-16.54.16:302][593]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.096 s
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: === Handled ensure: ===
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: 
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Editor\Kismet\Private\SKismetInspector.cpp] [Line: 568]
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: Object in KismetInspector is invalid, see TTP 281915
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: Stack: 
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000836395E6
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000833E9B82
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000833FB666
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007BA78CB9
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007BA754F6
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082398C02
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000008239778E
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000008282CECC
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082398C55
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082397ABE
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082398C55
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082399060
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082397C08
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082398C55
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000008239778E
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082398C55
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082399060
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000828A91BD
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082398C55
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000008239778E
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082398C55
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082399060
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000828A91BD
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082398C55
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000008239778E
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082398C55
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082399060
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000828A91BD
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082398C55
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082397ABE
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082398C55
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000008239778E
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082398C55
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082399060
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082397C08
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082398C55
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000008239778E
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082398C55
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000008239778E
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000008282CECC
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082398C55
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082397ABE
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082398C55
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082399060
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082397C08
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082398C55
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000008239778E
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082398C55
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082399060
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000828A91BD
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082398C55
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082397ABE
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082398C55
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000008239778E
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082398C55
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082399060
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082397C08
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082398C55
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082399060
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082397C08
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082398C55
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082397ABE
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082398C55
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x000000008239778E
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082397CAA
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000082398C55
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000826730FD
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000826ACF94
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000826741C0
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000826D2674
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000826D15C0
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor.exe!0x000000007B83EA1D
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor.exe!0x000000007B82EB40
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor.exe!0x000000007B82EBBA
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor.exe!0x000000007B840A29
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: UE4Editor.exe!0x000000007B8422B6
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: KERNEL32.DLL!0x00000000F1D37BD4
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: ntdll.dll!0x00000000F21CCED1
+[2020.06.27-16.54.16:302][593]LogOutputDevice:Error: 
+[2020.06.27-16.54.16:306][593]LogStats:                SubmitErrorReport -  0.000 s
